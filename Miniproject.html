@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamers Hub</title>
+    <link rel="stylesheet" id="theme-style" href="Miniproject1.css">
+    <style>
+        
+        .sidebar {
+            height: 100%;
+            width: 150px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #222;
+            padding-top: 20px;
+            z-index: 1001;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+            margin: 10px 0;
+            width: 80%;
+            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .sidebar a.active {
+            background-color: #ff5722;
+        }
+
+        
+        main {
+            margin-left: 220px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#" class="theme-button active" data-theme="Miniproject1.css">Theme 1</a>
+        <a href="#" class="theme-button" data-theme="Miniproject2.css">Theme 2</a>
+        <a href="#" class="theme-button" data-theme="Miniproject3.css">Theme 3</a>
+    </div>
+    <header>
+        <h1>Gamers Hub</h1>
+        <h2>All your favourite games from across the internet at one spot. One tap and Unlock The Adventure !</h2>
+    </header>
+    
+    <main>
+        <div class="game-grid">
+            <div class="game-review">
+                <img src="Gridpunk.jpg" alt="Gridpunk" class="game-logo">
+                <div class="review-popup">
+                    <h2>Gridpunk</h2>
+                    <p class="review">Gridpunk - Battle Royale 3v3 PvP is a real-time shooter game with quick rounds. Be fast, aim your shots. Don’t forget, all the 3v3 PvP games are online with real multiplayer opponents. It's 100% skill-based!</p>
+                    <a href="https://www.crazygames.com/game/gridpunk---3v3-battle-royale" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="TAG.JPEG" alt="TAG" class="game-logo">
+                <div class="review-popup">
+                    <h2>TAG</h2>
+                    <p class="review">TAG is local multiplayer game of catch! Square up against one, two or three of your friends and chase each other around one of three different levels!</p>
+                    <a href="https://poki.com/en/g/tag" class="game-link" target="_blank">Play Game</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="MAhojongg.JPEG" alt="Mahojongg" class="game-logo">
+                <div class="review-popup">
+                    <h2>Mahjongg</h2>
+                    <p class="review">Mahjonng is a tricky puzzle game. There are so many tiles, many of which look the same but feature slight differences. Along with the need to spot these patterns, you can’t move any pieces with both sides blocked.</p>
+                    <a href="https://www.crazygames.com/game/mahjongg-solitaire" class="game-link" target="_blank">Play Game</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="miniblox.JPEG" alt="MiniBlox" class="game-logo">
+                <div class="review-popup">
+                    <h2>Miniblox</h2>
+                    <p class="review">The two core game modes in Miniblox are survival and creative. Much like Minecraft, survival involves starting out with nothing with a survivalist aim, whereas creative mode gives you free rein to do what you want.</p>
+                    <a href="https://www.crazygames.com/game/miniblox
+                    " class="game-link" target="_blank">Play Game</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Fruit Chopper.png" alt="TFruit Chopper Logo" class="game-logo">
+                <div class="review-popup">
+                    <h2>Fruit Chopper</h2>
+                    <p class="review">Fruit Chopper is a fruit slicing arcade game. Get ready with your knife to chop all the fruits that are thrown at you.</p>
+                    <a href="https://www.msn.com/en-in/play/games/fruit-chopper/cg-9n8wl40938mq?ocid=cgbinghp&cgfrom=cg_landing_home_recommended&cvid=8ff853850bca4407aaa77b94fdd10845&ei=6" class="game-link" target="_blank">Play Game</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="dragon-merge.webp" alt="Fruit Ninja Logo" class="game-logo">
+                <div class="review-popup">
+                    <h2>Dragon Merge</h2>
+                    <p class="review">Dragon Merge is a casual game where you can merge and discover new dragons. Discover new and stronger dragons by merging the identical dragons. With your dragon collections, beat the monsters in the battle arena.</p>
+                    <a href="https://www.crazygames.com/game/dragon-merge" class="game-link" target="_blank">Play Game</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="TruckSimulator.jpeg" alt="Truck Simulator" class="game-logo">
+                <div class="review-popup">
+                    <h2>Truck Simulator</h2>
+                    <p class="review">Truck Driving Simulator Game is a engaging game that immerses you in the thrill of Asian truck driving, offering a realistic experience with unique lorry models and captivating environments.</p>
+                    <a href="https://www.crazygames.com/game/truck-driving-simulator-game" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Stickman Fighter.png" alt="Stickman" class="game-logo">
+                <div class="review-popup">
+                    <h2>Stickman Fighter Mega Brawl</h2>
+                    <p class="review">Stickman Fighter Mega Brawl is an addictively fun and fast-paced online game that offers simple yet satisfying combat mechanics, vibrant animations, and a variety of challenging levels to keep players engaged.</p>
+                    <a href="https://www.msn.com/en-in/play/games/stickman-fighter-mega-brawl/cg-9mvsmkmvhp65?ocid=cgbinghp&cgfrom=cg_landing_home_recommended&cvid=4c1898552f35480e92a1df761a5a8635&ei=12" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Smash Karts.webp" alt="Smash Karts" class="game-logo">
+                <div class="review-popup">
+                    <h2>Smash Karts</h2>
+                    <p class="review">Smash Karts is a 3D multiplayer kart battle game. Drive your go-kart, pick up weapons, and blow up other karts to win! Keep playing to level up and unlock new characters and prizes.</p>
+                    <a href="https://www.crazygames.com/game/smash-karts" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                </div>
+            </div>  
+            <div class="game-review">
+                <img src="Bike Racing 2.png" alt="Bike Racing 2" class="game-logo">
+                <div class="review-popup">
+                    <h2>Bike Racing 2</h2>
+                    <p class="review">Bike Racing 2 is an exhilarating online game that combines challenging tracks with smooth controls and impressive physics for a thrilling racing experience.</p>
+                    <a href="https://www.msn.com/en-in/play/games/bike-racing-2/cg-9pjmwr3lfc0d?ocid=cgbinghp&cgfrom=cg_landing_home_racing&cvid=d014b4e37b0a44e7978915cbdbea3617&ei=20" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Subway Surfers.png" alt="Subway Surfers" class="game-logo">
+                <div class="review-popup">
+                    <h2>Subway Surfers</h2>
+                    <p class="review">Subway Surfers is a classic endless runner game. You play as Jake, who surfs the subways and tries to escape from the grumpy Inspector and his dog. You'll need to dodge trains, trams, obstacles, and more to go as far as you can in this endless running game.</p>
+                    <a href="https://poki.com/en/g/subway-surfers" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="2048.png" alt="2048" class="game-logo">
+                <div class="review-popup">
+                    <h2>2048</h2>
+                    <p class="review">2048 is a simple but addictive puzzle game. Slide the tiles to combine them and create the 2048 tile. Can you reach the ultimate goal?</p>
+                    <a href="https://play2048.co/" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Agar.io.png" alt="Agar.io" class="game-logo">
+                <div class="review-popup">
+                    <h2>Agar.io</h2>
+                    <p class="review">Agar.io is an online multiplayer game where you control a cell and must consume other players to grow larger while avoiding being eaten yourself. It's a game of strategy and survival.</p>
+                    <a href="http://agar.io/" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Tetris.png" alt="Tetris" class="game-logo">
+                <div class="review-popup">
+                    <h2>Tetris</h2>
+                    <p class="review">Tetris is a timeless puzzle game where you must fit falling blocks together to clear lines and score points. Its simple yet challenging gameplay has made it a classic.</p>
+                    <a href="https://tetris.com/play-tetris" class="game-link" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Slither.io.png" alt="Slither.io" class="game-logo">
+                <div class="review-popup">
+                    <h2>Slither.io</h2>
+                    <p class="review">Slither.io is a modern take on the classic snake game. Play online with others, eat pellets to grow your snake, and try to become the longest of them all!</p>
+                    <a href="http://slither.io/" class="game-link" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="PacMan.png" alt="Pacman" class="game-logo">
+                <div class="review-popup">
+                    <h2>Pacman</h2>
+                    <p class="review">Pac-Man is an arcade classic where you navigate the maze, eat pellets, and avoid ghosts. Can you achieve a high score?</p>
+                    <a href="https://www.google.com/logos/2010/pacman10-i.html" class="game-link" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Cookie Clicker.png" alt="Cookie Clicker" class="game-logo">
+                <div class="review-popup">
+                    <h2>Cookie Clicker</h2>
+                    <p class="review">Cookie Clicker is an incremental game where you click on a giant cookie to produce more cookies. Use your cookies to buy upgrades and achieve cookie production domination!</p>
+                    <a href="https://orteil.dashnet.org/cookieclicker/" class="game-link" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Krunker.io.png" alt="Krunker.io" class="game-logo">
+                <div class="review-popup">
+                    <h2>Krunker.io</h2>
+                    <p class="review">Krunker.io is a fast-paced first-person shooter game with blocky graphics. Join multiplayer matches and compete against other players in various game modes.</p>
+                    <a href="https://krunker.io/" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="Warframe.png" alt="Warframe" class="game-logo">
+                <div class="review-popup">
+                    <h2>Warframe</h2>
+                    <p class="review">Warframe is a cooperative third-person shooter game set in a futuristic world. Join other players in intense battles, customize your character, and master powerful weapons.</p>
+                    <a href="https://www.warframe.com/" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            <div class="game-review">
+                <img src="8 Ball Pool.png" alt="8 Ball Pool" class="game-logo">
+                <div class="review-popup">
+                    <h2>8 Ball Pool</h2>
+                    <p class="review">8 Ball Pool is an addictive multiplayer game that offers realistic physics, smooth controls, and a variety of challenging opponents, providing an immersive and enjoyable pool experience online.</p>
+                    <a href="https://8ballpool.com/en/game" class="game-link" target="_blank">PLAY GAME</a>
+                </div>
+                <div class="star-rating">
+                    <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star empty">&#9733;</span>
+                </div>
+            </div>
+            
+        
+ 
+        </div>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const themeButtons = document.querySelectorAll('.theme-button');
+            const themeLink = document.getElementById('theme-style');
+
+            themeButtons.forEach(button => {
+                button.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const newTheme = this.getAttribute('data-theme');
+                    themeLink.setAttribute('href', newTheme);
+
+                    themeButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
